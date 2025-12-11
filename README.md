@@ -1,6 +1,6 @@
 <table id="menu">
     <tr>
-      <td id="first"><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
+      <td><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
       <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 2</a></td>
       <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 3</a></td>
       <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 4</a></td>
