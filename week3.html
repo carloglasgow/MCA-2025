@@ -66,30 +66,32 @@
     <p class="note">
         Note: If the Verovio app is not loading correctly, please refresh the page to ensure the score displays.
     </p>
-
-    <div id="app"></div>
-
+<div id="app">Verovio is loading...</div>
     <script type="module">
-    document.addEventListener("DOMContentLoaded", () => {
-        import './assets/verovio-app.js';
-
+        import 'https://www.verovio.org/javascript/app/verovio-app.js';
+        
         const options = {
-            defaultView: 'responsive', // or 'document'
-            defaultZoom: 3,            // 0-7, default 4
-            enableResponsive: true,
-            enableDocument: true
-        };
-
-        var file = 'assets/Bros.mei'; // Make sure the MEI file path is correct relative to this HTML file
-
+            defaultView: 'responsive', // default is 'responsive', alternative is 'document'
+            defaultZoom: 3, // 0-7, default is 4
+            enableResponsive: true, // default is true
+            enableDocument: true // default is true
+        }
+        
+        // A MusicXML file
+        var file = 'data/example.mei'; //Replace this with your own MEI file, but remember that JavaScript is case sensitive!
+        // A MEI file
+        //var file = 'https://www.verovio.org/editor/brahms.mei';
+        
         const app = new Verovio.App(document.getElementById("app"), options);
-
         fetch(file)
-            .then(response => response.text())
-            .then(text => app.loadData(text))
-            .catch(err => console.error("Failed to load MEI file:", err));
-    });
+            .then(function(response) {
+                return response.text();
+            })
+            .then(function(text) {
+                app.loadData(text);
+            });
     </script>
+    </div>
 
 </body>
 </html>
