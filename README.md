@@ -1,33 +1,3 @@
-#menu {
-display: block;
-width: 100%;
-overflow: auto;
-margin-right: 0px;
-margin-left: 0px;
-padding-top: 10px;
-padding-bottom: 10px;
-border: 1px solid #c6cbd;
-border-collapse:collapse;
-display: table-row-group;
-vertical-align: middle;
-	  }
-	  
-#menu, tr {
-    border: 1px solid #c6cbd1;
-	  }
-	  
-#menu, tr, td {
-	padding: 6px 13px;
-	border: 1px solid #dfe2e5; 
-	  }
-#menu, tr, td, a {
-	text-decoration: none;
-	  }
-  </style>
-</head>
-<body>
-	<div class="container"> 
-<h1><a href="https://github.com/katja-andric/MCA-2019">MCA-2019</a></h1>
 <table id="menu">
     <tr>
       <td id="first"><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
