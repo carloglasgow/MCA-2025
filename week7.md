@@ -4,4 +4,11 @@ I updated the MEI encoding for "Bros" to enhance its metadata for academic use. 
 You can see the updated MEI file, <a href= "Bros-modified(v2).mei" target="_blank">here</a>
 
 ## Task 2: Rendering the Revised 
+<head>
+  <title>My Piece</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css/CETEIcean.css" media="all" />
+  <link rel="stylesheet" href="css/style.css" media="all" />
+  <script src="js/CETEI.js"></script>
+</head>
 {% include_relative metaRAW.html %}
