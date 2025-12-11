@@ -4,32 +4,32 @@ Through generating a jsymbolic of "Bros," I selected a few features:
 
 <div>
 
-### Melodic Structure
-- Number of Pitches: 12
-- Number of Pitch Classes: 10
-- Range: 21 semitones
-- Most Common Pitch: E4
-- Most Common Pitch Class: E
-- Mean Pitch: ~62
-- Mean Melodic Interval: ~0.5
-- Most Common Melodic Interval: 0
-- Pitch Variability: Low
-- Number of Common Melodic Intervals: 3
+<b> Melodic Structure </b>  <br>
+- Number of Pitches: 12 <br>
+- Number of Pitch Classes: 10 <br>
+- Range: 21 semitones <br>
+- Most Common Pitch: E4 <br>
+- Most Common Pitch Class: E <br>
+- Mean Pitch: ~62 <br>
+- Mean Melodic Interval: ~0.5 <br>
+- Most Common Melodic Interval: 0 <br>
+- Pitch Variability: Low <br>
+- Number of Common Melodic Intervals: 3 <br>
 
 </div>
 
 <div>
 
-### Harmonic / Tonal Features
-- Strong Tonal Centres: 1 (E major)
-- Interval Between Most Prevalent Pitches: 0
+<b> Harmonic / Tonal Features </b> <br>
+- Strong Tonal Centres: 1 (E major) <br>
+- Interval Between Most Prevalent Pitches: 0 <br>
 
-### Textural & Rhythmic Features
-- Repeated Notes: 0.85
-- Minimum Note Duration: 0.5 beats
-- Maximum Note Duration: 4 beats
-- Average Note Duration: 0.75 beats
-- Tempo Variability: Low
+<b> Textural & Rhythmic Features </b> <br>
+- Repeated Notes: 0.85 <br>
+- Minimum Note Duration: 0.5 beats <br>
+- Maximum Note Duration: 4 beats <br>
+- Average Note Duration: 0.75 beats <br>
+- Tempo Variability: Low <br>
 
 </div>
 
