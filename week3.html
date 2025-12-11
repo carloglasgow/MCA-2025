@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 3: Encoding Notated Music</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1, h2 {
+            color: #2c3e50;
+        }
+        h1 {
+            margin-bottom: 10px;
+        }
+        h2 {
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        a.download-link {
+            display: inline-block;
+            margin: 5px 0 15px 0;
+            padding: 8px 12px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+        }
+        a.download-link:hover {
+            background-color: #2980b9;
+        }
+        #app {
+            margin: 20px 0;
+            width: 100%;
+            min-height: 400px;
+            border: 1px solid #ccc;
+        }
+        .note {
+            font-style: italic;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Week 3: Encoding Notated Music</h1>
+
+    <h2>Task 1: Generating MusicXML and MEI files</h2>
+    <p>
+        The first part of this week’s task involved exporting my MuseScore file to a MusicXML format, and then converting it into an MEI file. 
+        These formats allow for more detailed and semantically rich representations of the music, which will be useful for later analysis and rendering.
+        Both files can be accessed through the links below:
+    </p>
+    <a href="assets/Bros.musicxml" target="_blank" class="download-link">Download MusicXML file</a><br>
+    <a href="assets/Bros.mei" target="_blank" class="download-link">Download MEI file</a>
+
+    <h2>Task 2: Rendering the MEI file using Verovio</h2>
+    <p>
+        For the second part of the task, I used the Verovio toolkit to render my MEI file directly on this page. 
+        I copied the code from the verovio.html template and edited it as needed to display the score properly.
+    </p>
+    <p class="note">
+        Note: If the Verovio app is not loading correctly, please refresh the page to ensure the score displays.
+    </p>
+
+    <div id="app"></div>
+
+    <script type="module">
+    document.addEventListener("DOMContentLoaded", () => {
+        import './assets/verovio-app.js';
+
+        const options = {
+            defaultView: 'responsive', // or 'document'
+            defaultZoom: 3,            // 0-7, default 4
+            enableResponsive: true,
+            enableDocument: true
+        };
+
+        var file = 'assets/Bros.mei'; // Make sure the MEI file path is correct relative to this HTML file
+
+        const app = new Verovio.App(document.getElementById("app"), options);
+
+        fetch(file)
+            .then(response => response.text())
+            .then(text => app.loadData(text))
+            .catch(err => console.error("Failed to load MEI file:", err));
+    });
+    </script>
+
+</body>
+</html>
+
