@@ -4,7 +4,9 @@ I updated the MEI encoding for "Bros" to enhance its metadata for academic use. 
 You can see the updated MEI file, <a href= "Bros-modified(v2).mei" target="_blank">here</a>
 
 ## Task 2: Rendering the Revised Metadata
-<div id="app" class="panel" style="border: 1px solid light gray; min-height: 800px;">Verovio is loading...</div>
+<body>
+  <div id="MEImeta"></div>
+  <div id="app" class="panel" style="border: 1px solid light gray; min-height: 800px;">Verovio is loading...</div>
   <script type="module">
         import 'https://www.verovio.org/javascript/app/verovio-app.js';
         
@@ -54,5 +56,6 @@ You can see the updated MEI file, <a href= "Bros-modified(v2).mei" target="_blan
     })
   </script>
 
+</body>
+
 <footer><p>Score rendering provided by <a href="http://www.verovio.org">Verovio</a>. Metadata rendered by <a href="https://github.com/TEIC/CETEIcean/"> CETEIcean</a>.</p></footer>
-</html>
