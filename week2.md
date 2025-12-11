@@ -5,10 +5,10 @@
       <td><a href="https://carloglasgow.github.io/MCA-2025/week3.html">WEEK 3</a></td>
       <td><a href="https://carloglasgow.github.io/MCA-2025/week4.html">WEEK 4</a></td>
       <td><a href="https://carloglasgow.github.io/MCA-2025/week5.html">WEEK 5</a></td>
-      <td><a href="https://carloglasgow.github.io/MCA-2025/week6.html">WEEK 7</a></td>
-      <td><a href="https://carloglasgow.github.io/MCA-2025/week7.html">WEEK 8</a></td>
-      <td><a href="https://carloglasgow.github.io/MCA-2025/week8.html">WEEK 9</a></td>
-      <td><a href="https://carloglasgow.github.io/MCA-2025/week9.html">WEEK 10</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week7.html">WEEK 7</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week8.html">WEEK 8</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week9.html">WEEK 9</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week10.html">WEEK 10</a></td>
     </tr>
 </table>
 
