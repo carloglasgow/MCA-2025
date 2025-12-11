@@ -47,7 +47,7 @@ I have extracted a range of jSymbolic features that describe the melodic, harmon
       <p>This Music21 graph tallies notes by category (C1–C4). C2 has the most, which lines up with the repeating guitar chords in “Bros.” It shows how the harmony carries the song more than flashy melody.</p>
     </td>
     <td>
-      <img src="music21graph.png" width="200">
+      <img src="music21graph.png">
     </td>
   </tr>
 </table>
@@ -58,7 +58,7 @@ I have extracted a range of jSymbolic features that describe the melodic, harmon
       <p>This piano roll histogram shows when and how long each note plays. You can see the verse is rhythmically busy in the mid-range, while the chorus has longer held notes like G4 and F4 which matches the sustained vocal melody in “Bros.”</p>
     </td>
     <td>
-      <img src="notesquarterlengthbypitch.png" width="200">
+      <img src="notesquarterlengthbypitch.png">
     </td>
   </tr>
 </table>
@@ -69,7 +69,7 @@ I have extracted a range of jSymbolic features that describe the melodic, harmon
       <p>This scatter plot compares pitch and note length. Most notes are short and melodic, but the longest ones are A and C♯—the bass and vocal sustains in “Bros.” The sharps also point to E Major, the song’s key.</p>
     </td>
     <td>
-      <img src="myscatterplot.png" width="200">
+      <img src="myscatterplot.png">
     </td>
   </tr>
 </table>
