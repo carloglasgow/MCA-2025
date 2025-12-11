@@ -32,26 +32,6 @@
     </encodingDesc>
    </meiHead>
    <music>
-      <score>
-         <scoreDef>
-           <keySig>E major</keySig>
-           <meterSig count="4" unit="4"/>
-           <tempo>~82 bpm</tempo>
-           <instrument>Vocals</instrument>
-           <instrument>Guitar</instrument>
-           <instrument>Bass</instrument>
-           <instrument>Drums</instrument>
-           <instrument>Synth</instrument>
-           <extent>Melodic Range: G♯3 – G♯5</extent>
-         </scoreDef>
-
-         <interpretation>
-           <annotation>Chord Progression (example for verse/chorus): E – A – B – C♯m</annotation>
-           <annotation>Mood: Nostalgic, intimate</annotation>
-           <annotation type="genre">Indie Rock</annotation>
-           <annotation type="genre">Dream Pop</annotation>
-      	  <annotation type="mood">Nostalgic, intimate</annotation>
-         </interpretation>
       <body>
          <mdiv xml:id="zod2caq">
             <score xml:id="a1tbzkug">
@@ -2884,6 +2864,5 @@
             </score>
          </mdiv>
       </body>
-     </score>
    </music>
 </mei>
