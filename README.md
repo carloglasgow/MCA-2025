@@ -1,4 +1,47 @@
-
+#menu {
+display: block;
+width: 100%;
+overflow: auto;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 10px;
+padding-bottom: 10px;
+border: 1px solid #c6cbd;
+border-collapse:collapse;
+display: table-row-group;
+vertical-align: middle;
+	  }
+	  
+#menu, tr {
+    border: 1px solid #c6cbd1;
+	  }
+	  
+#menu, tr, td {
+	padding: 6px 13px;
+	border: 1px solid #dfe2e5; 
+	  }
+#menu, tr, td, a {
+	text-decoration: none;
+	  }
+  </style>
+</head>
+<body>
+	<div class="container"> 
+<h1><a href="https://github.com/katja-andric/MCA-2019">MCA-2019</a></h1>
+<table id="menu">
+    <tr>
+      <td id="first"><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 2</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 3</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 4</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 5</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 7</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 8</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 9</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 10</a></td>
+    </tr>
+</table>
+  
 # \[Week 1: Musical Datasets\]
 <!-- Version 1.0 -->
 The theme of my dataset is the English rock band Wolf Alice. The band currently consists of four members: front-woman and guitarist Ellie Rowsell, guitarist Joff Oddie, bassist Theo Ellis, and drummer Joel Amey. Formed in Northern London, Wolf Alice began as an acoustic duo featuring Rowsell and Oddie, but later evolved into a full rock-oriented band. They released their first EP, My Love Is Cool, on June 22nd, 2015, and their music have since become known for blending genres such as indie rock, dream pop, and shoegaze, often exploring themes of nostalgia, memory, and reflection on the past. I chose Wolf Alice as my dataset theme because I am particularly interested in how their music conveys emotional storytelling through melody, harmony. I am a huge fan of their music and familiar with their work, which I believe will help me complete the subsequent analysis tasks more effectively.
