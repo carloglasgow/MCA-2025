@@ -1,3 +1,17 @@
+<table id="menu">
+    <tr>
+      <td><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 2</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 3</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 4</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 5</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 7</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 8</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 9</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 10</a></td>
+    </tr>
+</table>
+
 # [Week 3: Encoding Notated Music]
 <!-- Version 1.0 -->
 ## Task 1: Generating MusicXML and MEI files 
