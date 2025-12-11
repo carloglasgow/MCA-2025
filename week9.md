@@ -14,61 +14,75 @@
 
 # [Week 9: Analysing and Extracting Meaning from Audio]
 ## Task 1: Extracting Features
-  <table class="screenshots">
-	  <tr> 
-		  <img src="ipir_screenshot.png">
-		  <img src="eir_screenshot.png">
-		  <img src="nostalgia_screenshot.png">
-	  </tr>
-	  <tr> 
-		  <td class="text-table"> Inspiring Uplifting Indie Rock </td>
-		  <td class="text-table"> Energetic Indie Rock </td>
-		  <td class="text-table"> Nostalgia </td>
-	  </tr>
-  </table>
+ <table class="screenshots">
+  <tr>
+    <td align="center">
+      <img src="ipir_screenshot.png"><br>
+      Inspiring Uplifting Indie Rock
+    </td>
+    <td align="center">
+      <img src="eir_screenshot.png"><br>
+      Energetic Indie Rock
+    </td>
+    <td align="center">
+      <img src="nostalgia_screenshot.png"><br>
+      Nostalgia
+    </td>
+  </tr>
+</table>
+
 
   ## Task 2: Computing and visualising histograms of features
   ### Task 2.1: Computing and visualising histograms
   #### Histograms computed from spectograms
   <table class="screenshots">
-	  <tr> 
-		  <img src="ipir_spec_histograms.png">
-		  <img src="eir_spec_histograms.png">
-		  <img src="nostalgia_spec_histograms.png">
-	  </tr>
-	  <tr> 
-		  <td class="text-table"> Inspiring Uplifting Indie Rock </td>
-		  <td class="text-table"> Energetic Indie Rock </td>
-		  <td class="text-table"> Nostalgia </td>
-	  </tr>
-  </table>
+  <tr>
+    <td align="center">
+      <img src="ipir_spec_histograms.png"><br>
+      <span class="text-table">Inspiring Uplifting Indie Rock</span>
+    </td>
+    <td align="center">
+      <img src="eir_spec_histograms.png"><br>
+      <span class="text-table">Energetic Indie Rock</span>
+    </td>
+    <td align="center">
+      <img src="nostalgia_spec_histograms.png"><br>
+      <span class="text-table">Nostalgia</span>
+    </td>
+  </tr>
+</table>
+
   
   #### Histograms computed from MFCCs
 <table class="screenshots">
-	  <tr> 
-		  <img src="ipir_mfcc_histograms.png">
-		  <img src="eir_mfcc_histograms.png">
-		  <img src="nostalgia_mfcc_histograms.png">
-	  </tr>
-	  <tr> 
-		  <td class="text-table"> Inspiring Uplifting Indie Rock </td>
-		  <td class="text-table"> Energetic Indie Rock </td>
-		  <td class="text-table"> Nostalgia </td>
-	  </tr>
+  <tr>
+    <td align="center">
+      <img src="ipir_mfcc_histograms.png"><br>
+      <span class="text-table">Inspiring Uplifting Indie Rock</span>
+    </td>
+    <td align="center">
+      <img src="eir_mfcc_histograms.png"><br>
+      <span class="text-table">Energetic Indie Rock</span>
+    </td>
+    <td align="center">
+      <img src="nostalgia_mfcc_histograms.png"><br>
+      <span class="text-table">Nostalgia</span>
+    </td>
+  </tr>
 </table>
 
 #### Histograms computed from chromagrams
 <table class="screenshots">
-	  <tr> 
-		  <img src="ipir_mfcc_histograms.png">
-		  <img src="eir_mfcc_histograms.png">
-		  <img src="nostalgia_mfcc_histograms.png">
-	  </tr>
-	  <tr> 
-		  <td class="text-table"> Inspiring Uplifting Indie Rock </td>
-		  <td class="text-table"> Energetic Indie Rock </td>
-		  <td class="text-table"> Nostalgia </td>
-	  </tr>
+  <tr>
+    <td><img src="ipir_mfcc_histograms.png"></td>
+    <td><img src="eir_mfcc_histograms.png"></td>
+    <td><img src="nostalgia_mfcc_histograms.png"></td>
+  </tr>
+  <tr>
+    <td align="center" class="text-table">Inspiring Uplifting Indie Rock</td>
+    <td align="center" class="text-table">Energetic Indie Rock</td>
+    <td align="center" class="text-table">Nostalgia</td>
+  </tr>
 </table>
 
 ### Task 2.2: Comparing the histograms
