@@ -1,3 +1,17 @@
+<table id="menu">
+    <tr>
+      <td><a href=https://carloglasgow.github.io/MCA-2025/>WEEK 1</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 2</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 3</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 4</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 5</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 7</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 8</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 9</a></td>
+      <td><a href="https://carloglasgow.github.io/MCA-2025/week2.html">WEEK 10</a></td>
+    </tr>
+</table>
+
 # [Week 10: Audio Similarity and Transcription]
 ## Task 1: Generating a Similarity Matrix
 <img src = "similaritymatrix.png">
